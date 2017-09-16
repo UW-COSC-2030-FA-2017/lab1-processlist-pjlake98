@@ -91,6 +91,9 @@ int main()
 		}
 	}
 
+	// Following code edited from 
+	// https://stackoverflow.com/questions/11876290/c-fastest-way-to-read-only-last-line-of-text-file?answertab=votes#tab-top
+	
 	// Find the position for the second to last number
 	myfile.seekg(-1, std::ios_base::end); // Go to one spot before the EOF
 	int counting = 0;
